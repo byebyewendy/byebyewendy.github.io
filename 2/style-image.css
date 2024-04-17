@@ -1,0 +1,46 @@
+body {
+    background-color: gold;
+    margin: 0;
+    padding: 0;
+} 
+
+.background {
+    width: 100%;
+    margin: auto;
+    background-image: url(image-06.png);
+    background-size: 100%;
+    animation: changeBackground 3s infinite;
+}
+
+@keyframes changeBackground {
+    0%{background-image: url(image-06.png);}
+    20%{background-image: url(image-07.png);}
+    40%{background-image: url(image-08.png);}
+    60%{background-image: url(image-09.png);}
+    80%{background-image: url(image-10.png);}
+    100%{background-image: url(image-06.png);}
+}
+
+img {
+    width: 100%;
+}
+
+.top {
+    padding-top: 300px;
+    width: 30%;
+    float: right;
+}
+
+.middle {
+    padding-top: -100px;
+    width: 100%;
+}
+
+.bottom {
+    padding-top: -100px;
+    width: 60%;
+}
+
+div.random {
+    transform: 1s;
+}
