@@ -1,0 +1,213 @@
+@font-face {
+    font-family:'outward-block';
+    src: url('outward-block.woff');
+}
+
+@font-face {
+    font-family:'outward-round';
+    src: url('outward-round.woff');
+}
+
+@font-face {
+    font-family:'mabry';
+    src: url('mabry.woff');
+}
+
+body {
+    background-color:rgb(18, 48, 84);
+    color: aliceblue;
+}
+
+div.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.headercolumn {
+    flex: 33.33%;
+    font-size: 50px;
+    font-family:'mabry';
+    text-align: right;
+}
+
+div.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.main1 {
+    flex: 50%;
+    font-size: 1000px;
+    font-family:'outward-block';
+    text-align: left;
+    text-shadow: 
+    0 -8rem 0 rgba(240, 248, 255, 0.075),
+    0 -7rem 0 rgba(240, 248, 255, 0.075),
+    0 -6rem 0 rgba(240, 248, 255, 0.075),
+    0 -5rem 0 rgba(240, 248, 255, 0.075),
+    0 -4rem 0 rgba(240, 248, 255, 0.075),
+    0 -3rem 0 rgba(240, 248, 255, 0.075),
+    0 -2rem 0 rgba(240, 248, 255,0.075),
+    0 -1rem 0 rgba(240, 248, 255,0.075),
+    0 1rem 0 rgba(240, 248, 255,0.075),
+    0 2rem 0 rgba(240, 248, 255,0.075),
+    0 3rem 0 rgba(240, 248, 255,0.075),
+    0 4rem 0 rgba(240, 248, 255,0.075),
+    0 5rem 0 rgba(240, 248, 255,0.075),
+    0 6rem 0 rgba(240, 248, 255,0.075),
+    0 7rem 0 rgba(240, 248, 255,0.075),
+    0 8rem 0 rgba(240, 248, 255,0.075),
+    0 9rem 0 rgba(240, 248, 255,0.075),
+    0 10rem 0 rgba(240, 248, 255,0.075),
+    0 11rem 0 rgba(240, 248, 255,0.075),
+    0 12rem 0 rgba(240, 248, 255,0.075),
+    0 13rem 0 rgba(240, 248, 255,0.075),
+    0 14rem 0 rgba(240, 248, 255,0.075),
+    0 15rem 0 rgba(240, 248, 255,0.075),
+    0 16rem 0 rgba(240, 248, 255,0.075),
+    0 17rem 0 rgba(240, 248, 255,0.075),
+    0 18rem 0 rgba(240, 248, 255,0.075),
+    0 19rem 0 rgba(240, 248, 255,0.075),
+    0 20rem 0 rgba(240, 248, 255,0.075),
+    0 21rem 0 rgba(240, 248, 255,0.075),
+    0 22rem 0 rgba(240, 248, 255,0.075),
+    0 23rem 0 rgba(240, 248, 255,0.075),
+    0 24rem 0 rgba(240, 248, 255,0.075),
+    0 25rem 0 rgba(240, 248, 255,0.075),
+    0 26rem 0 rgba(240, 248, 255,0.075),
+    0 27rem 0 rgba(240, 248, 255,0.075),
+    0 28rem 0 rgba(240, 248, 255,0.075),
+    0 29rem 0 rgba(240, 248, 255,0.075),
+    0 30rem 0 rgba(240, 248, 255,0.075),
+    0 31rem 0 rgba(240, 248, 255,0.075),
+    0 32rem 0 rgba(240, 248, 255,0.075),
+    0 33rem 0 rgba(240, 248, 255,0.075),
+    0 34rem 0 rgba(240, 248, 255,0.075),
+    0 35rem 0 rgba(240, 248, 255,0.075),
+    0 36rem 0 rgba(240, 248, 255,0.075),
+    0 37rem 0 rgba(240, 248, 255,0.075),
+    0 38rem 0 rgba(240, 248, 255,0.075),
+    0 39rem 0 rgba(240, 248, 255,0.075),
+    0 40rem 0 rgba(240, 248, 255,0.075),
+    0 41rem 0 rgba(240, 248, 255,0.075),
+    0 42rem 0 rgba(240, 248, 255,0.075),
+    0 43rem 0 rgba(240, 248, 255,0.075),
+    0 44rem 0 rgba(240, 248, 255,0.075),
+    0 45rem 0 rgba(240, 248, 255,0.075);
+    transition: all 0.5s ease-in-out;
+}
+
+div.main1.a {
+    color: rgb(48, 132, 235);
+	text-shadow:
+	0 1rem 0 rgba(48, 132, 235, 0.1),
+	0 2rem 0 rgba(48, 132, 235, 0.1),
+	0 3rem 0 rgba(48, 132, 235, 0.1),
+	0 4rem 0 rgba(48, 132, 235, 0.1);
+}
+
+div.main1.b {
+    color: rgb(235, 216, 48);
+	text-shadow:
+    0 -15rem 0 rgba(235, 216, 48, 0.1),
+    0 -14rem 0 rgba(235, 216, 48, 0.1),
+    0 -13rem 0 rgba(235, 216, 48, 0.1),
+    0 -12rem 0 rgba(235, 216, 48, 0.1),
+    0 -11rem 0 rgba(235, 216, 48, 0.1),
+    0 -10rem 0 rgba(235, 216, 48, 0.1),
+    0 -9rem 0 rgba(235, 216, 48, 0.1),
+    0 -8rem 0 rgba(235, 216, 48, 0.1),
+    0 -7rem 0 rgba(235, 216, 48, 0.1),
+    0 -6rem 0 rgba(235, 216, 48, 0.1),
+    0 -5rem 0 rgba(235, 216, 48, 0.1),
+	0 -4rem 0 rgba(235, 216, 48, 0.1),
+	0 -3rem 0 rgba(235, 216, 48, 0.1),
+	0 -2rem 0 rgba(235, 216, 48, 0.1),
+	0 -1rem 0 rgba(235, 216, 48, 0.1),
+    0 1rem 0 rgba(235, 216, 48, 0.1),
+    0 2rem 0 rgba(235, 216, 48, 0.1),
+    0 3rem 0 rgba(235, 216, 48, 0.1),
+    0 4rem 0 rgba(235, 216, 48, 0.1),
+    0 5rem 0 rgba(235, 216, 48, 0.1),
+    0 6rem 0 rgba(235, 216, 48, 0.1),
+    0 7rem 0 rgba(235, 216, 48, 0.1),
+    0 8rem 0 rgba(235, 216, 48, 0.1),
+    0 9rem 0 rgba(235, 216, 48, 0.1),
+    0 10rem 0 rgba(235, 216, 48, 0.1);
+}
+
+div.subtext {
+    flex: 50%;
+    font-size: 20px;
+    font-family:'mabry';
+    text-align: justify;
+    padding-top: 570px;
+}
+
+div.marquee {
+    width: 100%;
+    font-size: 25px;
+    font-family: 'mabry';
+    color: aliceblue;
+}
+
+div.main2 {
+    font-size: 1000px;
+    font-family:'outward-round';
+    text-align: right;
+    padding-right: 65px;
+    text-shadow: 
+    -2rem 0 0 rgba(240, 248, 255,0.075),
+    -1rem 0 0 rgba(240, 248, 255,0.075),
+    1rem 0 0 rgba(240, 248, 255,0.075),
+    2rem 0 0 rgba(240, 248, 255,0.075),
+    3rem 0 0 rgba(240, 248, 255,0.075),
+    4rem 0 0 rgba(240, 248, 255,0.075);
+    transition: all 0.5s ease-in-out;
+}
+
+div.main2.a {
+    color: rgb(48, 132, 235);
+	text-shadow:
+	1rem 0 0 rgba(48, 132, 235, 0.1),
+	2rem 0 0 rgba(48, 132, 235, 0.1),
+	3rem 0 0 rgba(48, 132, 235, 0.1),
+	4rem 0 0 rgba(48, 132, 235, 0.1),
+    5rem 0 0 rgba(48, 132, 235, 0.1),
+    6rem 0 0 rgba(48, 132, 235, 0.1),
+    7rem 0 0 rgba(48, 132, 235, 0.1),
+    8rem 0 0 rgba(48, 132, 235, 0.1),
+    9rem 0 0 rgba(48, 132, 235, 0.1),
+    10rem 0 0 rgba(48, 132, 235, 0.1);
+}
+
+div.main2.b {
+    color: rgb(235, 216, 48);
+	text-shadow:
+    1rem 0 0 rgba(235, 216, 48, 0.1),
+    2rem 0 0 rgba(235, 216, 48, 0.1),
+    3rem 0 0 rgba(235, 216, 48, 0.1);
+}
+
+div.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.footercolumn {
+    flex: 50%;
+    font-size: 50px;
+    font-family:'mabry';
+}
+
+div.footercolumn.a {
+    text-align: left;
+}
+
+div.footercolumn.b {
+    text-align: right;
+}
+
+div.random {
+    transform: 1s;
+}
