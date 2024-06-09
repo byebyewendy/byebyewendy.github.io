@@ -1,0 +1,241 @@
+@font-face {
+    font-family:'select-mono';
+    src: url('SelectMono-Italic.woff');
+}
+
+@font-face {
+    font-family:'crozet';
+    src: url('Crozet-Regular.woff');
+}
+
+span.crozet {
+    font-family: 'crozet';
+}
+
+body {
+    background-image: url(background.png);
+    background-size: cover;
+}
+
+div.img {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+div {
+    box-sizing:border-box;
+}
+
+div.left {
+    text-align: left;
+}
+
+div.right {
+    text-align: right;
+}
+
+div.width25 {
+    width: 25%;
+}
+
+div.width30 {
+    width: 30%;
+}
+
+div.width33 {
+    width: 33.3%;
+}
+
+div.width40 {
+    width: 40%;
+}
+
+div.width50 {
+    width:50%;
+}
+
+div.padding10 {
+    padding: 10px;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+}
+
+div.fixed {
+    position: fixed;
+}
+
+div.navigation {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.button {
+    text-align: center;
+    font-family: 'select-mono';
+    font-weight: bold;
+}
+
+div.button:hover {
+    color: white;
+}
+
+div.container {
+    position: relative;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+marquee {
+    position: absolute;
+    height: 100vh;
+}
+
+div.title {
+    text-align: center;
+    font-family: 'crozet';
+    font-size: 150px;
+    line-height: 200px;
+}
+  
+div.top-left {
+    position: absolute;
+    text-align: left;
+    top: 160px;
+    left: 200px;
+}
+  
+div.top-right {
+    position: absolute;
+    text-align: right;
+    top: 80px;
+    right: 180px;
+}
+
+div.bottom-left {
+    position: absolute;
+    text-align: left;
+    bottom: 8px;
+    left: 80px;
+}
+
+div.bottom-right {
+    position: absolute;
+    text-align: right;
+    bottom: 8px;
+    right: 80px;
+}
+
+div.bottom-center {
+    text-align: center;
+    bottom: 8px;
+    left: 16px;
+}
+
+div.subtext {
+    text-align: center;
+    font-family: 'select-mono';
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+div.text1 {
+    text-align: center;
+    font-family: 'crozet';
+}
+
+div.introduction {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+  
+span.thumbnail img {
+    display: inline !important;
+    height: 9vh;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+  
+span.letter {
+    display: inline !important;
+    font-family: 'crozet';
+    font-size: 80px;
+    line-height: 100%;
+}
+
+div.header-image img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+div.chapter {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+}
+
+div.columns {
+    box-sizing:border-box;
+    display:flex;
+  }
+  
+div.item {
+    font-family: 'select-mono';
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    height:90vh;
+    overflow:scroll;
+    border-radius: 20px;
+  }
+  
+div.blueleft {
+    background: rgb(104,121,172);
+    background: linear-gradient(0deg, rgba(104,121,172,1) 0%, rgba(232,224,202,1) 100%);
+}
+  
+div.blueright {
+    background: rgb(232,224,202);
+    background: linear-gradient(0deg, rgba(232,224,202,1) 0%, rgba(104,121,172,1) 100%);
+}
+
+div.greenleft {
+    background: rgb(164,179,100);
+    background: linear-gradient(0deg, rgba(164,179,100,1) 0%, rgba(232,224,202,1) 100%);
+}
+
+div.greenright {
+    background: rgb(232,224,202);
+    background: linear-gradient(0deg, rgba(232,224,202,1) 0%, rgba(164,179,100,1) 100%);
+}
+
+div.pinkleft {
+    background: rgb(208,125,148);
+    background: linear-gradient(0deg, rgba(208,125,148,1) 0%, rgba(232,224,202,1) 100%);
+}
+
+div.pinkright {
+    background: rgb(232,224,202);
+    background: linear-gradient(0deg, rgba(232,224,202,1) 0%, rgba(208,125,148,1) 100%);
+}
+
+div.footer {
+    display:flex;
+    flex-wrap:wrap;
+    padding: 5px;
+    background-image: url(gradient.jpg);
+}
